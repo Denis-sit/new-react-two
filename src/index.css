@@ -10,14 +10,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  height: 50px;
-  display: flex;
-  padding: 0 2rem;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-  background: #fafafa;
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 main {
@@ -25,6 +23,10 @@ main {
   margin: 0 auto;
   padding: 1rem;
   padding-top: 2rem;
+}
+
+button:disabled{
+  cursor: not-allowed;
 }
 
 h3 {
